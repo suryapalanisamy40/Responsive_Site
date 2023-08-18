@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Site</title>
+    <link rel="stylesheet" href="pricing.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+</style>
+
+<body>
+    <section>
+    <div class="container-lg ">
+                   <!--  Header -->
+      <div class="row header  d-flex align-items-center justify-content-evenly">
+       
+        <div class="col-4">
+            <div class="display-6">Landing</div>
+        </div>
+
+        <!-- menu button -->
+        <div class="col-6 menu_top show" id="myDIV">
+            <ul class="list-inline mt-3" style="float: right;">
+                <li class="list-inline-item me-2"><a href="html.html" class="link-light link-offset-3 link-underline-opacity-100-hover link-underline-opacity-0 link-opacity-50-hover ">Home</a></li>
+                <li class="list-inline-item me-2"><a href="futures.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3 link-opacity-50-hover">About</a></li>
+                <li class="list-inline-item me-2"><a href="Reviews.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3 link-opacity-50-hover">Reviews</a></li>
+                <li class="list-inline-item me-2"><a href="pricing.html" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3 link-opacity-50-hover">Pricing</a></li>
+                <li class="list-inline-item me-2"><a href="FAQ.html"  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3 link-opacity-50-hover">FAQ</a></li>
+                <button type="button" class="menu-button px-3 rounded shadow-sm text-light ">Get Started</button>
+            </ul>
+           
+        </div>
+       
+        <div class="top_icon text-end col-4" style="cursor: pointer;" onclick="myFunction()"><i class="fa fa-bars "></i></div>
+        <!-- End Menu button -->
+    </div>
+        <!-- End Header -->
+        
+        <h2 class="text-center mt-5">PRICING</h2>
+        <div class="price-container row ">
+
+            <div class="body shadow-lg ">
+                <h4 class="basic bg-danger py-2" >Basic</h4>
+                <span >
+                <i class="fa fa-bus text-dark"></i>
+                <div class="d-flex  justify-content-center align-items-center h-25 text-secondary "><span class="fs-1 mx-3 text-dark">$09</span> Per Student<br> Per Month</div>
+                </span>
+                <div class="d-flex justify-content-top flex-column align-items-center">
+                <ul class="list-inline text-start ">
+                        <li  class="text-secondary"><i class="fa fa-check"></i>&nbsp; Lorem, ipsum dolor.</li>  
+                        <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Harum, beatae laudantium</li>
+                        <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Odit, fugit saepe!</li>
+                        <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Lorem, ipsum dolor.</li>
+                        <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Harum, beatae laudantium</li>
+                        <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Odit, fugit saepe!</li>
+               </ul>
+               <button class=" w-75 btn btn-outline-danger  align-self-center rounded-pill">START FREE 7 DAYS TRIAL</button> 
+                </div>
+               
+            </div>
+                
+
+            <div class="body shadow-lg  ">
+                <h4 class="intermediate bg-primary py-2">Standard</h4>
+                <i class="fa fa-plane text-dark" aria-hidden="true"></i>
+                <div class="txt text-secondary d-flex justify-content-center align-items-center h-25"><span class="fs-1 text-dark mx-3">$99</span>Per Student <br>Per year</div>
+
+                <div class="d-flex justify-content-top flex-column align-items-center">
+                    <ul class="list-inline text-start ">
+                            <li  class="text-secondary"><i class="fa fa-check"></i>&nbsp; Lorem, ipsum dolor.</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Harum, beatae laudantium</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Odit, fugit saepe!</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Lorem, ipsum dolor.</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Harum, beatae laudantium</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Odit, fugit saepe!</li>
+                   </ul>
+                   <button class=" w-75 btn btn-outline-primary  align-self-center rounded-pill">START FREE 7 DAYS TRIAL</button> 
+                    </div>
+            </div>
+
+
+            <div class="body shadow-lg last-box"> 
+                <h4 class="advance bg-success py-2">Business</h4>
+                <i class="fa fa-rocket text-dark"></i>
+                <div class="txt text-secondary d-flex justify-content-center align-items-center h-25"><span class="fs-1 text-dark mx-3">$199</span>Per Team <br>Per year</div>
+
+                <div class="d-flex justify-content-top flex-column align-items-center">
+                    <ul class="list-inline text-start ">
+                            <li  class="text-secondary"><i class="fa fa-check"></i>&nbsp; Lorem, ipsum dolor.</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Harum, beatae laudantium</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Odit, fugit saepe!</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Lorem, ipsum dolor.</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Harum, beatae laudantium</li>
+                            <li class="text-secondary"><i class="fa fa-check"></i>&nbsp; Odit, fugit saepe!</li>
+                   </ul>
+                   <button class="  w-75 btn btn-outline-success  align-self-center rounded-pill">START FREE 7 DAYS TRIAL</button> 
+                    </div>
+            </div>
+        </div>
+
+    </div>
+   
+    <script>
+         function myFunction() {
+            var x = document.getElementById("myDIV");
+             x.classList.toggle("show");
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</section>
+</body>
+</html>

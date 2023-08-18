@@ -1,0 +1,151 @@
+.price-container .body{
+    width: 350px;
+    padding:0;
+    text-align: center;
+    border-radius: 20px;
+    height: 30rem;
+   background-color: white ;
+    
+}
+@media (max-width: 1100px){
+.body {
+    margin-bottom:30px;
+ 
+}
+
+.last-box{
+    margin-bottom: 20px;
+ }
+
+}
+
+.price-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   /* background-color: red; */
+   height: 80%;
+
+    
+}
+.basic,.intermediate,.advance {
+    padding:5px;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    color:white;
+
+}
+
+.fa-plane{
+    font-size: 70px;
+    margin-top: 10px;
+    transform: rotateZ(-45deg)
+}
+.fa-rocket,.fa-bus{
+    font-size: 70px;
+    margin-top: 10px;
+    
+}
+.bg{
+    background-color:#53BAB5;
+}
+.header {
+
+    height: 3rem;
+    /* position: static; */
+  }
+
+div{
+    padding:0px;
+}
+body{
+   
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(0, 212, 255, 1) 100%);
+  }
+  
+/*  html.css */
+
+.container-lg {
+    
+   color:white;
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(0, 212, 255, 1) 100%); */
+    height: 99vh;
+    font-family: 'Open Sans', sans-serif;
+     
+  
+}
+a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+button {
+    border: none;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
+
+
+/*   media query */
+@media (max-width:1000px)
+{
+
+
+ .menu_top{
+   /* background-color: red; */
+   height:400px;
+   align-self: center;
+   z-index: 1;
+   position: absolute;   
+   overflow: hidden;
+    top:50px;
+    
+   right: -5px;
+   
+ }
+ .menu_top ul{
+    border-radius: 10px;
+    background: linear-gradient(250deg, rgba(9, 9, 121, 1) 10%, rgba(0, 212, 255, 1) 90%); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    min-width:100% ;
+    
+    
+ }
+ .show{
+    display: none;
+ }
+ .menu_top ul li{
+    
+    margin-bottom: 20px;   
+    margin-top: 20px;
+ }
+
+
+ .menu_top button{
+    display: none;
+ }
+ 
+}
+@media (min-width:1000px)
+{
+ .top_icon {
+    display: none;
+ }
+
+} 
+/* END media query */
+
+
+

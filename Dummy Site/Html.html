@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample site</title>
+    <link rel="stylesheet" href="./css.css">
+    <!-- <link rel="stylesheet" href="./pricing.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+</style>
+
+<body>
+    <div class="container-lg  ">
+        <div class="bga">
+
+
+
+
+            <!--  Header -->
+            <div class="row header  d-flex align-items-center justify-content-evenly">
+
+                <div class="col-4">
+                    <div class="display-6">Landing</div>
+                </div>
+
+                <!-- menu button -->
+                <div class="col-6 menu_top show " id="myDIV">
+                    <ul class="list-inline mt-3 ul" style="float: right;">
+                        <li class="list-inline-item me-2"><a href="html.html"
+                                class="link-light link-offset-3 link-underline-opacity-100-hover link-underline-opacity-0 link-opacity-50-hover ">Home</a>
+                        </li>
+                        <li class="list-inline-item me-2"><a href="futures.html"
+                                class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3 link-opacity-50-hover">About</a>
+                        </li>
+                        <li class="list-inline-item me-2"><a href="Reviews.html"
+                                class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3 link-opacity-50-hover">Reviews</a>
+                        </li>
+                        <li class="list-inline-item me-2"><a href="pricing.html"
+                                class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3 link-opacity-50-hover">Pricing</a>
+                        </li>
+                        <li class="list-inline-item me-2"><a href="FAQ.html"
+                                class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3 link-opacity-50-hover">FAQ</a>
+                        </li>
+                        <button type="button" class="menu-button px-3 rounded shadow-sm text-light ">Get
+                            Started</button>
+                    </ul>
+
+                </div>
+                <!-- End Menu button -->
+                <div class="top_icon text-end col-4" onclick="myFunction()"><i class="fa fa-bars "></i></div>
+            </div>
+            <!-- End Header -->
+
+
+
+            <!-- content -->
+            <div class="row bdy ">
+                <div class="col-1   "></div>
+                <div class="col-md">
+                    <div class="display-6 my-3">Fly Makes you <br>Faster</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi natus debitis quasi minus
+                        ex
+                        sequi corporis deleniti harum soluta. Debitis culpa tempore odit porro voluptate laborum nihil
+                        rem
+                        nemo!</p>
+                    <button type="button" class="mt-2 rounded shadow bgc py-1 "><a target="_blank"
+                            class="text-uppercase px-4 py-1 text-light text-decoration-none " href="pricing.html">See
+                            pricing</a></button>
+                </div>
+                <!-- end content -->
+
+
+                <!-- login  -->
+                <div class="col-md ">
+                    <div
+                        class="login shadow-lg bg-light d-flex flex-column justify-content-center align-items-center m-auto ">
+                        <div class="fs-3 text-dark"> Sign up for Free</div>
+                        <input type="text" class="w-100 mt-3" placeholder="Full Name">
+                        <input type="email" class="w-100 mt-3" placeholder="Email">
+                        <input type="number" class="w-100 mt-3" placeholder="Phone">
+                        <input type="text" class="w-100 mt-3" placeholder="Type">
+                        <button type="button"
+                            class="w-100 mt-3 rounded-pill p-2 bg-primary shadow text-light">Register</button>
+                    </div>
+                </div>
+                <!-- End login -->
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+             x.classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
